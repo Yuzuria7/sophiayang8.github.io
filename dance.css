@@ -1,0 +1,62 @@
+#header {
+    background-color:lightskyblue;
+    opacity: 0.8;
+    color:white;
+    text-align:center;
+    padding:5px;
+    width: inherit;
+}
+#nav {
+    line-height:30px;
+    background-color:aliceblue;
+    height: 900px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+
+#dance {
+    text-align: center;
+}
+
+#para{
+    text-align: center;
+}
+#section {
+    width: 1000px;
+    float:left;
+    padding:10px;
+    text-align: center;
+
+}
+
+a:link {
+    color:skyblue;
+    text-decoration:underline;
+    }
+    a:visited {
+    color:navy;
+    text-decoration:none;
+    }
+    a:hover {
+    color:#000000;
+    text-decoration:none;
+    }
+    a:active {
+    color:#FFFFFF;
+    text-decoration:none;
+    }
+
+
+#footer {
+    background-color:lightskyblue;
+    opacity: 0.8;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+img.dance{
+    width: 1000px;
+}

@@ -1,0 +1,99 @@
+.box{
+    width: 80%;
+    background:skyblue;
+    opacity:0.9;
+    height:50px;
+    margin-top: 20px;
+    box-shadow: 2px 2px snow;
+    margin-block-start: 50px;
+    margin-left: 200px;
+    
+
+}
+
+.box ul{
+        list-style: none;
+        padding-left: 180px;
+
+}
+
+.box ul li{
+        float: left;
+        padding-left: 50px;
+        padding-top: 0px;
+        margin:0 20px 0 10px;
+}
+
+.box ul li a{
+        color: #FFFFFF;
+        text-decoration: none;
+        display:block;
+        font-size:20px;
+        line-height:50px;
+        padding-right: 50px;
+}
+
+.box ul li:hover{
+        color: #fff;
+        background:lightblue
+}
+
+.box ul li a:hover{
+        color: #000;
+        background:lightblue
+}
+
+.box ul li ul{
+        padding-left: 0px;
+        margin: left -50px;
+}
+
+.box ul li ul li{
+        display:none;
+        width: 180px;
+        height:50px;
+        float:initial;
+        background:lightblue;
+        font-size: 20px;           
+}
+
+.box ul li:hover ul li{
+display:block;
+border-top:1px lightblue;
+}
+.box ul li ul li:hover{
+background: lightblue;
+}
+.box ul li ul li a:hover{
+background: lightblue;
+}
+
+
+body{ 
+    background-image:url(images/bg/冰纹.png);
+}
+
+
+h1 {
+color: rgb(46, 99, 214);
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+margin-block-start: 50px;
+text-shadow: 2px 2px snow;
+font-size: 50px;
+}
+
+img{
+        width: 200px;
+        margin-left: 600px;
+}
+
+#footer {
+        background-color:skyblue;
+        opacity: 0.8;
+        color:white;
+        clear:both;
+        text-align:center;
+       padding:5px;
+       margin-block-start: 500px;	 	 
+    }
